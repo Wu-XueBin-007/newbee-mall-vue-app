@@ -137,6 +137,7 @@ export default {
   },
   async mounted() {
     const token = getLocal('token')
+    console.log('test')
     if (token) {
       this.isLogin = true
     }
